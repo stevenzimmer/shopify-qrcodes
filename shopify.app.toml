@@ -2,7 +2,7 @@
 
 name = "profitable-sale-app"
 client_id = "9be3442fe0e5e3d479e0ab54fd1215cd"
-application_url = "https://pilot-staffing-doctor-warranty.trycloudflare.com"
+application_url = "https://robot-musical-rebel-rare.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://pilot-staffing-doctor-warranty.trycloudflare.com/auth/callback",
-  "https://pilot-staffing-doctor-warranty.trycloudflare.com/auth/shopify/callback",
-  "https://pilot-staffing-doctor-warranty.trycloudflare.com/api/auth/callback"
+  "https://robot-musical-rebel-rare.trycloudflare.com/auth/callback",
+  "https://robot-musical-rebel-rare.trycloudflare.com/auth/shopify/callback",
+  "https://robot-musical-rebel-rare.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

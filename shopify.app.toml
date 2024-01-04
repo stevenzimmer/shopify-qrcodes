@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "profitable-sale-app"
+client_id = "9be3442fe0e5e3d479e0ab54fd1215cd"
+application_url = "https://pilot-staffing-doctor-warranty.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://pilot-staffing-doctor-warranty.trycloudflare.com/auth/callback",
+  "https://pilot-staffing-doctor-warranty.trycloudflare.com/auth/shopify/callback",
+  "https://pilot-staffing-doctor-warranty.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "webzimqrcode.myshopify.com"
